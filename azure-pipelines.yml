@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  AZVM
+  Uipath-Dev
 
 steps:
 - task: UiPathDeploy@3
