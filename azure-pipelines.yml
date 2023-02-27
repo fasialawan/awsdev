@@ -9,6 +9,7 @@ trigger:
 pool:
   Uipath_local
 
+steps:
 - task: UiPathDeploy@3
   inputs:
     orchestratorConnection: 'UipathDev'
