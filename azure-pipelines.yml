@@ -16,9 +16,9 @@ steps:
     packagesPath: '$(Build.SourcesDirectory)'
     folderName: 'Shared'
 
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+# steps:
+# - script: echo Hello, world!
+#   displayName: 'Run a one-line script'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
